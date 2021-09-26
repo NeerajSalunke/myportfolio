@@ -1,24 +1,55 @@
 import logo from './logo.svg';
 import './App.css';
+import Navbar from './MyComponents/Navbar';
+import Home from './MyComponents/Home';
+import About from './MyComponents/About';
+import Projects from './MyComponents/Projects';
+// import Resume from './MyComponents/Resume';
+import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import { unstable_renderSubtreeIntoContainer } from 'react-dom';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Router >
+      <Navbar/>
+      <Switch>
+          <Route exact path="/" render={()=>{
+            return(
+              <>
+                  <Home />
+              </>
+            )
+          }}>
+          </Route>
+          <Route exact path="/about" render={()=>{
+            return(
+              <>
+                  <About />
+              </>
+            )
+          }}>
+          </Route>
+          <Route exact path="/projects" render={()=>{
+            return(
+              <>
+                  <Projects/>
+              </>
+            )
+          }}>
+          </Route>
+          {/* <Route exact path="/resume" render={()=>{
+            return(
+              <>
+                  <Resume/>
+              </>
+            )
+          }}>
+          </Route> */}
+        </Switch>
+    </Router>
+    </>
   );
 }
 
