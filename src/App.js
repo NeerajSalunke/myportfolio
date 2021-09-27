@@ -12,7 +12,7 @@ import { unstable_renderSubtreeIntoContainer } from 'react-dom';
 function App() {
   return (
     <>
-    <Router >
+    <Router basename={process.env.PUBLIC_URL}>
       <Navbar/>
       <Switch>
           <Route exact path="/" render={()=>{
@@ -39,14 +39,6 @@ function App() {
             )
           }}>
           </Route>
-          {/* <Route exact path="/resume" render={()=>{
-            return(
-              <>
-                  <Resume/>
-              </>
-            )
-          }}>
-          </Route> */}
         </Switch>
     </Router>
     </>
