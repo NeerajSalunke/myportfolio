@@ -67,9 +67,6 @@ function Projects() {
                     <a style={btn} href="https://github.com/NeerajSalunke/Hosp-mng" target="_blank"><button type="button" className="btn btn-outline-primary d-grid gap-2 col-6 mx-auto">View Source Code</button></a>
                 </div>
             </div>
-            <div>
-                <a style={btn} href="https://ipfs.infura.io/ipfs/QmcxzYdYZYY5E8iXdjCfNiUDFW22D2m7q7hyTCYL3mnrLg" target="_blank"><button type="button" className="btn btn-outline-primary d-grid gap-2 col-3 mx-auto">Resume</button></a>
-            </div>
         </>
     )
 }

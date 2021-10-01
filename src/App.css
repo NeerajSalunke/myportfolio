@@ -47,6 +47,7 @@
     
     .container{
         display: grid;
+        grid-gap: 15px;
         grid-template-columns: 1fr;
     }
     .img{
@@ -61,6 +62,10 @@
     .projimg{
         opacity: 0.5;
     }
+    .resume{
+        align-self: center;
+        justify-self: center;
+    }
     .nav-item:hover{
         transform: scale(1,1);
     }
@@ -73,11 +78,16 @@
     }
     .container{
         display: grid;
+        grid-gap: 15px;
         grid-template-columns: 1fr;
     }
     .img{
         justify-self: center;
         align-self: center;
+    }
+    .resume{
+        align-self: center;
+        justify-self: center;
     }
     .projimg{
         margin-left:auto;
@@ -93,11 +103,16 @@
     }
     .container{
         display: grid;
+        grid-gap: 15px;
         grid-template-columns: 1fr;
     }
     .img{
         justify-self: center;
         align-self: center;
+    }
+    .resume{
+        align-self: center;
+        justify-self: center;
     }
     .projimg{
         margin-left:auto;
@@ -115,7 +130,8 @@
         display: grid;
         grid-gap: 15px;
         grid-template-areas: 
-        "a a b b b";
+        "a a b b b"
+        "c c c c c";
         height:100vh;
         padding:0px 0px;
         margin: auto auto;
@@ -127,6 +143,11 @@
     }
     .aboutme{
         grid-area: b;
+        align-self: center;
+        justify-self: center;
+    }
+    .resume{
+        grid-area: c;
         align-self: center;
         justify-self: center;
     }
@@ -146,7 +167,8 @@
         display: grid;
         grid-gap: 15px;
         grid-template-areas: 
-        "a a b b b";
+        "a a b b b"
+        "c c c c c";
         height:100vh;
         padding:0px 0px;
         margin: auto auto;
@@ -158,6 +180,11 @@
     }
     .aboutme{
         grid-area: b;
+        align-self: center;
+        justify-self: center;
+    }
+    .resume{
+        grid-area: c;
         align-self: center;
         justify-self: center;
     }
