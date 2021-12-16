@@ -40,7 +40,8 @@ function About() {
                     An avid car lover. Can call me <span style={{color:"#FF2F2F"}}>Car Geek.</span>
                 </div>
                 <div className="resume">
-                    <a style={{textDecoration:"none"}} href="https://ipfs.infura.io/ipfs/QmcxzYdYZYY5E8iXdjCfNiUDFW22D2m7q7hyTCYL3mnrLg" target="_blank"><button type="button" className="btn btn-outline-primary btn-lg">Resume</button></a>
+                    {/* <a style={{textDecoration:"none"}} href="https://ipfs.infura.io/ipfs/QmcxzYdYZYY5E8iXdjCfNiUDFW22D2m7q7hyTCYL3mnrLg" target="_blank"><button type="button" className="btn btn-outline-primary btn-lg">Resume</button></a> */}
+                    <a style={{textDecoration:"none"}} href="https://docs.google.com/document/d/1b2OZg7imK5WEp2_jWTXnU6UFhLU7rU2njhx7V7y2_mc/edit?usp=sharing" target="_blank"><button type="button" className="btn btn-outline-primary btn-lg">Resume</button></a>
                 </div>
                 
             </div>
