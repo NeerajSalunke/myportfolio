@@ -1,4 +1,4 @@
-import MyPic from "./MyPic1.jpeg";
+import MyPic from "./Neeraj Zaanse_Schans.jpg";
 // import '../MyComponents/App.css';
 function About() {
     let firstStyle = {
@@ -38,10 +38,11 @@ function About() {
                     independently.<br />
                     Right now, learning more about <span style={{color:"#6BDDE7"}}>Ethereum Blockchain.</span><br />
                     An avid car lover. Can call me <span style={{color:"#FF2F2F"}}>Car Geek.</span>
-                </div>
-                <div className="resume">
-                    {/* <a style={{textDecoration:"none"}} href="https://ipfs.infura.io/ipfs/QmcxzYdYZYY5E8iXdjCfNiUDFW22D2m7q7hyTCYL3mnrLg" target="_blank"><button type="button" className="btn btn-outline-primary btn-lg">Resume</button></a> */}
-                    <a style={{textDecoration:"none"}} href="https://drive.google.com/file/d/18XUxa4k94gjy9kPg8aqJSMXKjVr2-MiO/view?usp=sharing" target="_blank"><button type="button" className="btn btn-outline-primary btn-lg">Resume</button></a>
+                    
+                    <div className="resume">
+                        {/* <a style={{textDecoration:"none"}} href="https://ipfs.infura.io/ipfs/QmcxzYdYZYY5E8iXdjCfNiUDFW22D2m7q7hyTCYL3mnrLg" target="_blank"><button type="button" className="btn btn-outline-primary btn-lg">Resume</button></a> */}
+                        <a style={{textDecoration:"none"}} href="https://drive.google.com/file/d/18XUxa4k94gjy9kPg8aqJSMXKjVr2-MiO/view?usp=sharing" target="_blank"><button type="button" className="btn btn-outline-primary btn-lg">Resume</button></a>
+                    </div>
                 </div>
                 
             </div>
