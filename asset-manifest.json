@@ -1,29 +1,32 @@
 {
   "files": {
     "main.css": "/myportfolio/static/css/main.a947c6eb.chunk.css",
-    "main.js": "/myportfolio/static/js/main.19ec8e98.chunk.js",
-    "main.js.map": "/myportfolio/static/js/main.19ec8e98.chunk.js.map",
+    "main.js": "/myportfolio/static/js/main.b3de166a.chunk.js",
+    "main.js.map": "/myportfolio/static/js/main.b3de166a.chunk.js.map",
     "runtime-main.js": "/myportfolio/static/js/runtime-main.7c5673b7.js",
     "runtime-main.js.map": "/myportfolio/static/js/runtime-main.7c5673b7.js.map",
-    "static/js/2.4fb42da1.chunk.js": "/myportfolio/static/js/2.4fb42da1.chunk.js",
-    "static/js/2.4fb42da1.chunk.js.map": "/myportfolio/static/js/2.4fb42da1.chunk.js.map",
+    "static/js/2.2e7e6aad.chunk.js": "/myportfolio/static/js/2.2e7e6aad.chunk.js",
+    "static/js/2.2e7e6aad.chunk.js.map": "/myportfolio/static/js/2.2e7e6aad.chunk.js.map",
     "static/js/3.f418702b.chunk.js": "/myportfolio/static/js/3.f418702b.chunk.js",
     "static/js/3.f418702b.chunk.js.map": "/myportfolio/static/js/3.f418702b.chunk.js.map",
     "index.html": "/myportfolio/index.html",
     "static/css/main.a947c6eb.chunk.css.map": "/myportfolio/static/css/main.a947c6eb.chunk.css.map",
-    "static/js/2.4fb42da1.chunk.js.LICENSE.txt": "/myportfolio/static/js/2.4fb42da1.chunk.js.LICENSE.txt",
+    "static/js/2.2e7e6aad.chunk.js.LICENSE.txt": "/myportfolio/static/js/2.2e7e6aad.chunk.js.LICENSE.txt",
     "static/media/Neeraj Zaanse_Schans.b3b986c2.jpg": "/myportfolio/static/media/Neeraj Zaanse_Schans.b3b986c2.jpg",
     "static/media/atm.4e9a28b6.PNG": "/myportfolio/static/media/atm.4e9a28b6.PNG",
     "static/media/filestor.d915fd6b.PNG": "/myportfolio/static/media/filestor.d915fd6b.PNG",
     "static/media/hospmng.8125d75f.png": "/myportfolio/static/media/hospmng.8125d75f.png",
+    "static/media/hospweb1.1bf2b20b.png": "/myportfolio/static/media/hospweb1.1bf2b20b.png",
     "static/media/logo.6ce24c58.svg": "/myportfolio/static/media/logo.6ce24c58.svg",
+    "static/media/movrec.2fc6f9b0.png": "/myportfolio/static/media/movrec.2fc6f9b0.png",
+    "static/media/quessimi.2bc9d3c7.png": "/myportfolio/static/media/quessimi.2bc9d3c7.png",
     "static/media/todolist.efef3d04.PNG": "/myportfolio/static/media/todolist.efef3d04.PNG",
     "static/media/votedapp.a7d0ebe4.png": "/myportfolio/static/media/votedapp.a7d0ebe4.png"
   },
   "entrypoints": [
     "static/js/runtime-main.7c5673b7.js",
-    "static/js/2.4fb42da1.chunk.js",
+    "static/js/2.2e7e6aad.chunk.js",
     "static/css/main.a947c6eb.chunk.css",
-    "static/js/main.19ec8e98.chunk.js"
+    "static/js/main.b3de166a.chunk.js"
   ]
 }
