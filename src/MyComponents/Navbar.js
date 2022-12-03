@@ -18,6 +18,9 @@ function Navbar() {
                         <li className="nav-item">
                             <Link className="nav-link active text-white" to="/projects">Projects</Link>
                         </li>
+                        <li className="nav-item">
+                            <Link className="nav-link active text-white" to="/blogs">Blogs</Link>
+                        </li>
                     </ul>
                     <div className="d-flex" id="logo">
                         <a href="https://github.com/NeerajSalunke" target="_blank" className="logo">

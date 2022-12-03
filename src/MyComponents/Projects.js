@@ -3,6 +3,9 @@ import votedapppic from "./votedapp.png";
 import filestor from "./filestor.PNG";
 import atm from "./atm.PNG";
 import hospmng from "./hospmng.png";
+import hospweb1 from "./hospweb1.png";
+import movrec from "./movrec.png";
+import quessimi from "./quessimi.png";
 function Projects() {
     let title = {
         color: "white",
@@ -41,11 +44,7 @@ function Projects() {
                     <div  className="img_desc">
                         <img src={filestor} className="rounded projimg" alt="File Storage pic" />
                         <p className="desc">
-                            File Storage Web App using Ethereum Blockchain and IPFS. There is no central server that can be shutdown and anyone can store files and participate. The project is in progress
-                            <svg style={{marginLeft:"5px"}} xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-gear" viewBox="0 0 16 16">
-                                <path d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492zM5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0z" />
-                                <path d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52l-.094-.319zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115l.094-.319z" />
-                            </svg>
+                            File Storage Web App using Ethereum Blockchain and IPFS. There is no central server that can be shutdown and anyone can store files and participate.
                         </p>
                     </div>
                     <a style={btn} href="https://github.com/NeerajSalunke/FileStorage" target="_blank"><button type="button" className="btn btn-outline-primary d-grid gap-2 col-6 mx-auto">View Source Code</button></a>
@@ -59,12 +58,44 @@ function Projects() {
                     <a style={btn} href="https://github.com/NeerajSalunke/atm-simulator" target="_blank"><button type="button" className="btn btn-outline-primary d-grid gap-2 col-6 mx-auto">View Source Code</button></a>
                 </div>
                 <div className="project">
-                    <p style={title}><b>Hospital Management</b></p>
+                    <p style={title}><b>Hospital Management Desktop App</b></p>
                     <div  className="img_desc">
                         <img src={hospmng} className="rounded projimg" alt="Hospital management pic" />
                         <p className="desc">Hospital Management software in python. UI is made using Tkinter library with support of mysql as a database to store records.</p>
                     </div>
                     <a style={btn} href="https://github.com/NeerajSalunke/Hosp-mng" target="_blank"><button type="button" className="btn btn-outline-primary d-grid gap-2 col-6 mx-auto">View Source Code</button></a>
+                </div>
+                <div className="project">
+                    <p style={title}><b>Hospital Web App using Azure</b></p>
+                    <div  className="img_desc">
+                        <img src={hospweb1} className="rounded projimg" alt="Hospital management pic" />
+                        <p className="desc">One stop destination for many task carried out in a clinic or hospitals. Patient can book appointment of doctor by giving some basic details. People can also chat with Web App Bot which is trained to answer all queries related to web site and other general questions of patients.</p>
+                    </div>
+                    <a style={btn} href="https://github.com/NeerajSalunke/hospital-azure" target="_blank"><button type="button" className="btn btn-outline-primary d-grid gap-2 col-6 mx-auto">View Source Code</button></a>
+                </div>
+                <div className="project">
+                    <p style={title}><b>Evidence Storage System</b></p>
+                    <div  className="img_desc">
+                        <img src={hospmng} className="rounded projimg" alt="Hospital management pic" />
+                        <p className="desc">A website to store evidences related to court matters so that evidences remain secure and tamper proof on Blockchain network. Only Police can upload evidences on the network. This evidence can accessed by anyone involved in the case like courts, lawyers and common citizens.</p>
+                    </div>
+                    <a style={btn} href="https://github.com/NeerajSalunke/evidence-storage" target="_blank"><button type="button" className="btn btn-outline-primary d-grid gap-2 col-6 mx-auto">View Source Code</button></a>
+                </div>
+                <div className="project">
+                    <p style={title}><b>Movie Recommender System</b></p>
+                    <div  className="img_desc">
+                        <img src={movrec} className="rounded projimg" alt="Hospital management pic" />
+                        <p className="desc">A website which recommends users movies based on genre and other features. It recommends similar movies liked by users in the past</p>
+                    </div>
+                    {/* <a style={btn} href="https://github.com/NeerajSalunke/Hosp-mng" target="_blank"><button type="button" className="btn btn-outline-primary d-grid gap-2 col-6 mx-auto">View Source Code</button></a> */}
+                </div>
+                <div className="project">
+                    <p style={title}><b>Question pair similarity</b></p>
+                    <div  className="img_desc">
+                        <img src={quessimi} className="rounded projimg" alt="Hospital management pic" />
+                        <p className="desc">Hospital Management software in python. UI is made using Tkinter library with support of mysql as a database to store records.</p>
+                    </div>
+                    {/* <a style={btn} href="https://github.com/NeerajSalunke/Hosp-mng" target="_blank"><button type="button" className="btn btn-outline-primary d-grid gap-2 col-6 mx-auto">View Source Code</button></a> */}
                 </div>
             </div>
         </>

@@ -26,7 +26,7 @@ function About() {
                             <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zM4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM10 8c-.552 0-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5S10.552 8 10 8z" />
                         </svg>
                     </h2>
-                    Hi, I'm Neeraj. Currently a 3rd year CSE student at <span style={{ color: "#FFA500" }}>Vidyalankar Institute Of Technology, Mumbai.</span><br />
+                    Hi, I'm Neeraj. Currently a final year Computer Engineering student at <span style={{ color: "#FFA500" }}>Vidyalankar Institute Of Technology</span>, an autonomous institute affiated to the University of Mumbai<br />
                     Born and raised in Navi Mumbai.<br />
                     Loves to learn new things and explore new Technologies. Extremely motivated to constantly
                     develop my skills and grow
@@ -41,7 +41,7 @@ function About() {
                     
                     <div className="resume">
                         {/* <a style={{textDecoration:"none"}} href="https://ipfs.infura.io/ipfs/QmcxzYdYZYY5E8iXdjCfNiUDFW22D2m7q7hyTCYL3mnrLg" target="_blank"><button type="button" className="btn btn-outline-primary btn-lg">Resume</button></a> */}
-                        <a style={{textDecoration:"none"}} href="https://drive.google.com/file/d/18XUxa4k94gjy9kPg8aqJSMXKjVr2-MiO/view?usp=sharing" target="_blank"><button type="button" className="btn btn-outline-primary btn-lg">Resume</button></a>
+                        <a style={{textDecoration:"none"}} href="https://drive.google.com/file/d/1VWGfgNw_fBnMmseERoIumaBXa-NwelN2/view?usp=share_link" target="_blank"><button type="button" className="btn btn-outline-primary btn-lg">Resume</button></a>
                     </div>
                 </div>
                 
