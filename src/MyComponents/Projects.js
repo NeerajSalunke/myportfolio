@@ -88,7 +88,7 @@ function Projects() {
                     <p style={title}><b>Movie Recommender System</b></p>
                     <div  className="img_desc">
                         <img src={movrec} className="rounded projimg" alt="Hospital management pic" />
-                        <p className="desc">A website which recommends users movies based on genre and other features. It recommends similar movies liked by users in the past</p>
+                        <p className="desc">A content-based movie recommender website which recommends users movies based on genre and other features. It recommends similar movies liked by users in the past</p>
                     </div>
                     {/* <a style={btn} href="https://github.com/NeerajSalunke/Hosp-mng" target="_blank"><button type="button" className="btn btn-outline-primary d-grid gap-2 col-6 mx-auto">View Source Code</button></a> */}
                 </div>
@@ -96,7 +96,7 @@ function Projects() {
                     <p style={title}><b>Question pair similarity</b></p>
                     <div  className="img_desc">
                         <img src={quessimi} className="rounded projimg" alt="Hospital management pic" />
-                        <p className="desc">Hospital Management software in python. UI is made using Tkinter library with support of mysql as a database to store records.</p>
+                        <p className="desc">Aim of the project is to detect if 2 questions with different wordings are similar(meaning-wise) or not using NLP libraries. Websites like Quora use this technology. This way Quora can enhance the customer experience & reduce the unanswered duplicate questions & thus saving a lot of time for the users.</p>
                     </div>
                     {/* <a style={btn} href="https://github.com/NeerajSalunke/Hosp-mng" target="_blank"><button type="button" className="btn btn-outline-primary d-grid gap-2 col-6 mx-auto">View Source Code</button></a> */}
                 </div>

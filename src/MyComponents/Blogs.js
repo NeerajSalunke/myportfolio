@@ -9,7 +9,7 @@ function Blogs() {
     }
 return(
     <div style={blogStyle}>
-        hello
+        Coming Soon...
     </div>
     )   
 }
