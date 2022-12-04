@@ -6,6 +6,7 @@ import hospmng from "./hospmng.png";
 import hospweb1 from "./hospweb1.png";
 import movrec from "./movrec.png";
 import quessimi from "./quessimi.png";
+import evidstor from "./evidstor.png";
 function Projects() {
     let title = {
         color: "white",
@@ -72,14 +73,16 @@ function Projects() {
                         <p className="desc">One stop destination for many task carried out in a clinic or hospitals. Patient can book appointment of doctor by giving some basic details. People can also chat with Web App Bot which is trained to answer all queries related to web site and other general questions of patients.</p>
                     </div>
                     <a style={btn} href="https://github.com/NeerajSalunke/hospital-azure" target="_blank"><button type="button" className="btn btn-outline-primary d-grid gap-2 col-6 mx-auto">View Source Code</button></a>
+                    <a style={btn} href="https://hospital-azure.azurewebsites.net/" target="_blank"><button type="button" className="btn btn-outline-primary d-grid gap-2 col-6 mx-auto">View Project</button></a>
                 </div>
                 <div className="project">
                     <p style={title}><b>Evidence Storage System</b></p>
                     <div  className="img_desc">
-                        <img src={hospmng} className="rounded projimg" alt="Hospital management pic" />
+                        <img src={evidstor} className="rounded projimg" alt="Hospital management pic" />
                         <p className="desc">A website to store evidences related to court matters so that evidences remain secure and tamper proof on Blockchain network. Only Police can upload evidences on the network. This evidence can accessed by anyone involved in the case like courts, lawyers and common citizens.</p>
                     </div>
                     <a style={btn} href="https://github.com/NeerajSalunke/evidence-storage" target="_blank"><button type="button" className="btn btn-outline-primary d-grid gap-2 col-6 mx-auto">View Source Code</button></a>
+                    {/* <a style={btn} href="" target="_blank"><button type="button" className="btn btn-outline-primary d-grid gap-2 col-6 mx-auto">View Project</button></a> */}
                 </div>
                 <div className="project">
                     <p style={title}><b>Movie Recommender System</b></p>
