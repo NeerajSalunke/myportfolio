@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/myportfolio/static/css/main.a947c6eb.chunk.css",
-    "main.js": "/myportfolio/static/js/main.b3de166a.chunk.js",
-    "main.js.map": "/myportfolio/static/js/main.b3de166a.chunk.js.map",
+    "main.js": "/myportfolio/static/js/main.63fa333c.chunk.js",
+    "main.js.map": "/myportfolio/static/js/main.63fa333c.chunk.js.map",
     "runtime-main.js": "/myportfolio/static/js/runtime-main.7c5673b7.js",
     "runtime-main.js.map": "/myportfolio/static/js/runtime-main.7c5673b7.js.map",
     "static/js/2.2e7e6aad.chunk.js": "/myportfolio/static/js/2.2e7e6aad.chunk.js",
@@ -14,6 +14,7 @@
     "static/js/2.2e7e6aad.chunk.js.LICENSE.txt": "/myportfolio/static/js/2.2e7e6aad.chunk.js.LICENSE.txt",
     "static/media/Neeraj Zaanse_Schans.b3b986c2.jpg": "/myportfolio/static/media/Neeraj Zaanse_Schans.b3b986c2.jpg",
     "static/media/atm.4e9a28b6.PNG": "/myportfolio/static/media/atm.4e9a28b6.PNG",
+    "static/media/evidstor.48a2e136.png": "/myportfolio/static/media/evidstor.48a2e136.png",
     "static/media/filestor.d915fd6b.PNG": "/myportfolio/static/media/filestor.d915fd6b.PNG",
     "static/media/hospmng.8125d75f.png": "/myportfolio/static/media/hospmng.8125d75f.png",
     "static/media/hospweb1.1bf2b20b.png": "/myportfolio/static/media/hospweb1.1bf2b20b.png",
@@ -27,6 +28,6 @@
     "static/js/runtime-main.7c5673b7.js",
     "static/js/2.2e7e6aad.chunk.js",
     "static/css/main.a947c6eb.chunk.css",
-    "static/js/main.b3de166a.chunk.js"
+    "static/js/main.63fa333c.chunk.js"
   ]
 }
