@@ -5,6 +5,7 @@ import Home from './MyComponents/Home';
 import About from './MyComponents/About';
 import Projects from './MyComponents/Projects';
 import Blogs from './MyComponents/Blogs';
+import Ethams from './MyComponents/Ethams';
 // import Resume from './MyComponents/Resume';
 import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import { unstable_renderSubtreeIntoContainer } from 'react-dom';
@@ -44,6 +45,14 @@ function App() {
             return(
               <>
                   <Blogs/>
+              </>
+            )
+          }}>
+          </Route>
+          <Route exact path="/ethams" render={()=>{
+            return(
+              <>
+                  <Ethams/>
               </>
             )
           }}>
