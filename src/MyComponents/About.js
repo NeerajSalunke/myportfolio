@@ -41,7 +41,7 @@ function About() {
                     
                     <div className="resume">
                         {/* <a style={{textDecoration:"none"}} href="https://ipfs.infura.io/ipfs/QmcxzYdYZYY5E8iXdjCfNiUDFW22D2m7q7hyTCYL3mnrLg" target="_blank"><button type="button" className="btn btn-outline-primary btn-lg">Resume</button></a> */}
-                        <a style={{textDecoration:"none"}} href="https://drive.google.com/file/d/1VWGfgNw_fBnMmseERoIumaBXa-NwelN2/view?usp=share_link" target="_blank"><button type="button" className="btn btn-outline-primary btn-lg">Resume</button></a>
+                        <a style={{textDecoration:"none"}} href="https://drive.google.com/file/d/13LcWJaY99PRqOSDZNeK_StA8fZHTPeEH/view?usp=sharing" target="_blank"><button type="button" className="btn btn-outline-primary btn-lg">Resume</button></a>
                     </div>
                 </div>
                 
