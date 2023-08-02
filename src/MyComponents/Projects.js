@@ -13,8 +13,8 @@ function Projects() {
         textAlign: "center",
         font: "bold",
         fontSize: "30px",
-        margin:"0px 0px",
-        padding:"0px 0px"
+        margin: "0px 0px",
+        padding: "0px 0px"
     }
     let btn = {
         textDecoration: "none",
@@ -22,6 +22,15 @@ function Projects() {
     return (
         <>
             <div className="container2">
+                <div className="project">
+                    <p style={title}><b>Evidence Storage System</b></p>
+                    <div className="img_desc">
+                        <img src={evidstor} className="rounded projimg" alt="Hospital management pic" />
+                        <p className="desc">A website to store evidences related to court matters so that evidences remain secure and tamper proof on Blockchain network. Only Police can upload evidences on the network. This evidence can accessed by anyone involved in the case like courts, lawyers and common citizens.</p>
+                    </div>
+                    <a style={btn} href="https://github.com/NeerajSalunke/evidence-storage" target="_blank"><button type="button" className="btn btn-outline-primary d-grid gap-2 col-6 mx-auto">View Source Code</button></a>
+                    {/* <a style={btn} href="" target="_blank"><button type="button" className="btn btn-outline-primary d-grid gap-2 col-6 mx-auto">View Project</button></a> */}
+                </div>
                 <div className="project">
                     <p style={title}><b>Todo List</b></p>
                     <div className="img_desc">
@@ -42,7 +51,7 @@ function Projects() {
                 </div>
                 <div className="project">
                     <p style={title}><b>File Storage</b></p>
-                    <div  className="img_desc">
+                    <div className="img_desc">
                         <img src={filestor} className="rounded projimg" alt="File Storage pic" />
                         <p className="desc">
                             File Storage Web App using Ethereum Blockchain and IPFS. There is no central server that can be shutdown and anyone can store files and participate.
@@ -52,7 +61,7 @@ function Projects() {
                 </div>
                 <div className="project">
                     <p style={title}><b>Atm Simulator</b></p>
-                    <div  className="img_desc">
+                    <div className="img_desc">
                         <img src={atm} className="rounded projimg" alt="atm pic" />
                         <p className="desc">This is a ATM simulator in java. Various atm services are available in this project. User can withdraw, deposit, transfer and can the change pin.</p>
                     </div>
@@ -60,7 +69,7 @@ function Projects() {
                 </div>
                 <div className="project">
                     <p style={title}><b>Hospital Management Desktop App</b></p>
-                    <div  className="img_desc">
+                    <div className="img_desc">
                         <img src={hospmng} className="rounded projimg" alt="Hospital management pic" />
                         <p className="desc">Hospital Management software in python. UI is made using Tkinter library with support of mysql as a database to store records.</p>
                     </div>
@@ -68,25 +77,17 @@ function Projects() {
                 </div>
                 <div className="project">
                     <p style={title}><b>Hospital Web App using Azure</b></p>
-                    <div  className="img_desc">
+                    <div className="img_desc">
                         <img src={hospweb1} className="rounded projimg" alt="Hospital management pic" />
                         <p className="desc">One stop destination for many task carried out in a clinic or hospitals. Patient can book appointment of doctor by giving some basic details. People can also chat with Web App Bot which is trained to answer all queries related to web site and other general questions of patients.</p>
                     </div>
                     <a style={btn} href="https://github.com/NeerajSalunke/hospital-azure" target="_blank"><button type="button" className="btn btn-outline-primary d-grid gap-2 col-6 mx-auto">View Source Code</button></a>
                     <a style={btn} href="https://hospital-azure.azurewebsites.net/" target="_blank"><button type="button" className="btn btn-outline-primary d-grid gap-2 col-6 mx-auto">View Project</button></a>
                 </div>
-                <div className="project">
-                    <p style={title}><b>Evidence Storage System</b></p>
-                    <div  className="img_desc">
-                        <img src={evidstor} className="rounded projimg" alt="Hospital management pic" />
-                        <p className="desc">A website to store evidences related to court matters so that evidences remain secure and tamper proof on Blockchain network. Only Police can upload evidences on the network. This evidence can accessed by anyone involved in the case like courts, lawyers and common citizens.</p>
-                    </div>
-                    <a style={btn} href="https://github.com/NeerajSalunke/evidence-storage" target="_blank"><button type="button" className="btn btn-outline-primary d-grid gap-2 col-6 mx-auto">View Source Code</button></a>
-                    {/* <a style={btn} href="" target="_blank"><button type="button" className="btn btn-outline-primary d-grid gap-2 col-6 mx-auto">View Project</button></a> */}
-                </div>
+
                 <div className="project">
                     <p style={title}><b>Movie Recommender System</b></p>
-                    <div  className="img_desc">
+                    <div className="img_desc">
                         <img src={movrec} className="rounded projimg" alt="Hospital management pic" />
                         <p className="desc">A content-based movie recommender website which recommends users movies based on genre and other features. It recommends similar movies liked by users in the past</p>
                     </div>
@@ -94,7 +95,7 @@ function Projects() {
                 </div>
                 <div className="project">
                     <p style={title}><b>Question pair similarity</b></p>
-                    <div  className="img_desc">
+                    <div className="img_desc">
                         <img src={quessimi} className="rounded projimg" alt="Hospital management pic" />
                         <p className="desc">Aim of the project is to detect if 2 questions with different wordings are similar(meaning-wise) or not using NLP libraries. Websites like Quora use this technology. This way Quora can enhance the customer experience & reduce the unanswered duplicate questions & thus saving a lot of time for the users.</p>
                     </div>
