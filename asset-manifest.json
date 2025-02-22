@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/myportfolio/static/css/main.7e40b1f8.chunk.css",
-    "main.js": "/myportfolio/static/js/main.d3ab0a69.chunk.js",
-    "main.js.map": "/myportfolio/static/js/main.d3ab0a69.chunk.js.map",
+    "main.js": "/myportfolio/static/js/main.a6493ab1.chunk.js",
+    "main.js.map": "/myportfolio/static/js/main.a6493ab1.chunk.js.map",
     "runtime-main.js": "/myportfolio/static/js/runtime-main.7c5673b7.js",
     "runtime-main.js.map": "/myportfolio/static/js/runtime-main.7c5673b7.js.map",
     "static/js/2.2e7e6aad.chunk.js": "/myportfolio/static/js/2.2e7e6aad.chunk.js",
@@ -27,7 +27,9 @@
     "static/media/hospweb1.1bf2b20b.png": "/myportfolio/static/media/hospweb1.1bf2b20b.png",
     "static/media/logo.6ce24c58.svg": "/myportfolio/static/media/logo.6ce24c58.svg",
     "static/media/movrec.2fc6f9b0.png": "/myportfolio/static/media/movrec.2fc6f9b0.png",
+    "static/media/multiModal.55cb6c53.png": "/myportfolio/static/media/multiModal.55cb6c53.png",
     "static/media/quessimi.2bc9d3c7.png": "/myportfolio/static/media/quessimi.2bc9d3c7.png",
+    "static/media/stockMar.a62e825c.png": "/myportfolio/static/media/stockMar.a62e825c.png",
     "static/media/todolist.efef3d04.PNG": "/myportfolio/static/media/todolist.efef3d04.PNG",
     "static/media/votedapp.a7d0ebe4.png": "/myportfolio/static/media/votedapp.a7d0ebe4.png"
   },
@@ -35,6 +37,6 @@
     "static/js/runtime-main.7c5673b7.js",
     "static/js/2.2e7e6aad.chunk.js",
     "static/css/main.7e40b1f8.chunk.css",
-    "static/js/main.d3ab0a69.chunk.js"
+    "static/js/main.a6493ab1.chunk.js"
   ]
 }
