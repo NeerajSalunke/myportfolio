@@ -7,6 +7,8 @@ import hospweb1 from "./hospweb1.png";
 import movrec from "./movrec.png";
 import quessimi from "./quessimi.png";
 import evidstor from "./evidstor.png";
+import stockMar from "./stockMar.png";
+import multiModal from "./multiModal.png";
 function Projects() {
     let title = {
         color: "white",
@@ -23,12 +25,31 @@ function Projects() {
         <>
             <div className="container2">
                 <div className="project">
+                    <p style={title}><b>Stock Market Search App</b></p>
+                    <div className="img_desc">
+                        <img src={stockMar} className="rounded projimg" alt="Hospital management pic" />
+                        <p className="desc">Developed a Stock Market Search Website and Android App to provide real-time and historical stock data. Implemented features for users to track, buy, and sell stocks, ensuring a seamless trading experience.</p>
+                    </div>
+                    <a style={btn} href="https://stocksearchangular1502-418801.wl.r.appspot.com/search/home" target="_blank"><button type="button" className="btn btn-outline-primary d-grid gap-2 col-6 mx-auto">View Project</button></a>
+                    {/* <a style={btn} href="" target="_blank"><button type="button" className="btn btn-outline-primary d-grid gap-2 col-6 mx-auto">View Project</button></a> */}
+                </div>
+                <div className="project">
                     <p style={title}><b>Evidence Storage System</b></p>
                     <div className="img_desc">
                         <img src={evidstor} className="rounded projimg" alt="Hospital management pic" />
                         <p className="desc">A website to store evidences related to court matters so that evidences remain secure and tamper proof on Blockchain network. Only Police can upload evidences on the network. This evidence can accessed by anyone involved in the case like courts, lawyers and common citizens.</p>
                     </div>
                     <a style={btn} href="https://github.com/NeerajSalunke/evidence-storage" target="_blank"><button type="button" className="btn btn-outline-primary d-grid gap-2 col-6 mx-auto">View Source Code</button></a>
+                    {/* <a style={btn} href="" target="_blank"><button type="button" className="btn btn-outline-primary d-grid gap-2 col-6 mx-auto">View Project</button></a> */}
+                </div>
+                <div className="project">
+                    <p style={title}><b>Candidate Profiling Through Multimodal Personality Analysis</b></p>
+                    <div className="img_desc">
+                        <img src={multiModal} className="rounded projimg" alt="Hospital management pic" />
+                        <p className="desc"> Designed a talent assessment platform to evaluate candidates on audio, video and text. Extracted the Audio Features using Wav2Vec2, preprocessed audio features, trained a Bi-GRU model, and collaborated
+                            on multimodal data fusion across Audio, Video and Text for comprehensive personality analysis.</p>
+                    </div>
+                    {/* <a style={btn} href="https://github.com/NeerajSalunke/evidence-storage" target="_blank"><button type="button" className="btn btn-outline-primary d-grid gap-2 col-6 mx-auto">View Source Code</button></a> */}
                     {/* <a style={btn} href="" target="_blank"><button type="button" className="btn btn-outline-primary d-grid gap-2 col-6 mx-auto">View Project</button></a> */}
                 </div>
                 <div className="project">
