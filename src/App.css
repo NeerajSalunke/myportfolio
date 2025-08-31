@@ -5,12 +5,20 @@ body {
   color: #f5f5f5;
 }
 
+h1{
+  font-weight: 800;
+}
+
+h3{
+  font-weight: 800;
+}
+
 .navbar {
   position: fixed;
-  top: 20px; /* keeps it floating from top */
+  top: 20px; 
   left: 50%;
-  transform: translateX(-50%); /* centers it horizontally */
-  width: fit-content; /* shrink to fit content */
+  transform: translateX(-50%); 
+  width: fit-content; 
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
   border-radius: 20px;
@@ -19,7 +27,7 @@ body {
   justify-content: center;
   gap: 25px;
   z-index: 1000;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25); /* floating effect */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25); 
 }
 
 .navbar a {
@@ -54,6 +62,7 @@ body {
 
 .hero-text {
   flex: 1;
+  font-family: 'Verdana';
 }
 
 .hero-text h1 {
@@ -99,7 +108,6 @@ body {
 }
 
 .btn {
-  /* background: #38bdf8; */
   background: linear-gradient(270deg, #7f00ff, #00bfff, #7f00ff);
   background-size: 600% 600%;
   animation: gradientShift 6s ease infinite;
@@ -112,8 +120,8 @@ body {
 }
 
 .btn:hover {
-  background: #0ea5e9;
-  /* transform: scale(1.05); */
+  background: white;
+  color: black;
 }
 
 .btn-outline {
@@ -122,8 +130,9 @@ body {
 }
 
 .btn-outline:hover {
-  background: #38bdf8;
-  color: white;
+  background: white;
+  color: black;
+  border-color: white;
 }
 
 .hero-image img {
@@ -150,6 +159,10 @@ body {
   border-radius: 15px;
 }
 
+.about-text p{
+  font-family: 'Verdana';
+}
+
 .projects {
   padding: 80px 20px;
   text-align: left;
@@ -161,14 +174,15 @@ body {
 
 .project-list {
   display: flex;
-  flex-direction: column; /* stack project cards vertically */
-  gap: 20px; /* space between projects */
+  flex-direction: column;
+  gap: 20px;
 }
 
 .project-card {
   display: flex;
   width: 70%;
-  background: #161b22;    
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);   
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -200,6 +214,11 @@ body {
   animation: gradientShift 6s ease infinite;
 }
 
+.btn-sm:hover{
+  background: white;
+  color: black;
+}
+
 .btn-md {
   text-align: center;
   width: 30%;
@@ -213,6 +232,10 @@ body {
   background-size: 600% 600%;
   color: white;
   animation: gradientShift 6s ease infinite;
+}
+
+.btn-md:hover{
+  background: white;
 }
 
 .contact {
@@ -236,7 +259,6 @@ footer {
 
 #blogs {
     padding: 80px 20px;
-    /* background: #0d1117; */
     text-align: center;
   }
   #blogs h1 {
@@ -248,7 +270,8 @@ footer {
     flex-direction: column;
   }
   .blog-card {
-    background: #161b22;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
     width: 70%;
     margin-top: 10px;
     margin: 5px auto ;
@@ -259,6 +282,7 @@ footer {
   }
   .blog-card:hover {
     transform: translateY(-5px);
+    background: white;
   }
   .blog-card h3 a {
     text-decoration: none;
@@ -276,7 +300,6 @@ footer {
   
 #certifications {
     padding: 80px 20px;
-    /* background: #0d1117; */
     text-align: center;
   }
   #certifications h1 {
@@ -290,7 +313,8 @@ footer {
   .cert-card {
     display: flex;
     justify-content: space-around;
-    background: #161b22;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
     width: 70%;
     margin-top: 10px;
     margin: 5px auto ;
@@ -301,6 +325,7 @@ footer {
   }
   .cert-card:hover {
     transform: translateY(-5px);
+    background: white;
   }
   .cert-card .link{
     margin: auto;
